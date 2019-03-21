@@ -1,0 +1,131 @@
+@import "https://fonts.googleapis.com/css?family=Poiret+One|Wendy+One";
+
+body {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    background: #DEE9F9;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-family: 'Wendy One', sans-serif;
+    font-size: 5rem;
+}
+span {
+    font-size: 1.2rem;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    padding: 0 0 45px 0;
+}
+.info {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: #F9E5EE;
+    width: 100%;
+    margin: 80px 0 60px 0;
+    box-shadow: rgb(171, 205, 255) 2px 1px 30px 1px;
+}
+
+
+#zone1 {
+    font-size: 3rem;
+    font-family: 'Wendy One', sans-serif;
+}
+
+#zone1b {
+    font-size: 1.5rem;
+    font-family: 'Poiret One', cursive;
+}
+
+#zone1c {
+    font-size: 1.5rem;
+    font-family: 'Poiret One', cursive;
+}
+#span {
+    font-size: 1.5rem;
+    font-family: 'Poiret One', cursive;
+}
+
+input {
+    width: 10%;
+    height: 40px;
+    align-self: center;
+    text-justify: center;
+    font-size: 1.5rem;
+    font-family: 'Poiret One', cursive;
+    background-color: #F9E5EE;
+    border-radius: 5px;
+    /*box-shadow: rgb(171, 205, 255) 2px 1px 30px 1px;*/
+}
+.form-control-sm, .input-group-sm > .form-control, .input-group-sm > .input-group-prepend > .input-group-text, .input-group-sm > .input-group-append > .input-group-text, .input-group-sm > .input-group-prepend > .btn, .input-group-sm > .input-group-append > .btn {
+    background-color: #F9E5EE;
+}
+
+label {
+    font-size: 1.1rem;
+    font-family: 'Poiret One', cursive;
+}
+
+table {
+    background: url("https://res.cloudinary.com/noethix/image/upload/o_33/v1552395348/things/pink_clouds.png");
+}
+thead tr th {
+    font-size: 1.1rem;
+    font-family: 'Wendy One', sans-serif;
+    text-align: center;
+}
+
+tfoot tr th {
+    font-size: 1.1rem;
+    font-family: 'Wendy One', sans-serif;
+    text-align: center;
+}
+
+td {
+    font-size: 1.1rem;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+#zone2_wrapper {
+    width: 85%;
+    padding: 50px 0;
+    align-self: center;
+}
+
+.row {
+    padding:40px 0 10px 0;
+}
+
+.pagination {
+    font-size: 1.1rem;
+    font-family: 'Poiret One', cursive;
+}
+
+.dataTables_info {
+    font-size: 1.1rem;
+    font-family: 'Poiret One', cursive;
+}
+
+.page-item.active .page-link {
+    color: #000;
+    background-color: #F9E5EE;
+    border-color: rgb(90, 90, 90);
+}
+
+.page-link {
+    color: rgb(90, 90, 90);
+}
+a {
+    background-color:  #DEE9F9;
+}
+.paginate_button{
+    background-color: #F9E5EE !important;
+}
+
+#zone2_previous {
+    background-color: #F9E5EE !important;
+}
